@@ -1,0 +1,14 @@
+[
+  {
+    "label": "apiplatform",
+    "detail": "api"
+  },
+  {
+    "label": "maker bundle",
+    "detail": "symfony/maker-bundle --dev"
+  },
+  {
+    "label": "profiler",
+    "detail": "symfony/profiler-pack --dev"
+  }
+]

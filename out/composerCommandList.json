@@ -1,0 +1,214 @@
+[
+    {
+        "label": "about",
+        "detail": "Shows the short information about Composer."
+    },
+    {
+        "label": "archive",
+        "detail": "Creates an archive of this composer package."
+    },
+    {
+        "label": "auto-scripts",
+        "detail": "Runs the auto-scripts script as defined in composer.json."
+    },
+    {
+        "label": "browse",
+        "detail": "Opens the package's repository URL or homepage in your browser."
+    },
+    {
+        "label": "check-platform-reqs",
+        "detail": "Check that platform requirements are satisfied."
+    },
+    {
+        "label": "clear-cache",
+        "detail": "Clears composer's internal package cache."
+    },
+    {
+        "label": "clearcache",
+        "detail": "Clears composer's internal package cache."
+    },
+    {
+        "label": "config",
+        "detail": "Sets config options."
+    },
+    {
+        "label": "create-project",
+        "detail": "Creates new project from a package into given directory."
+    },
+    {
+        "label": "depends",
+        "detail": "Shows which packages cause the given package to be installed."
+    },
+    {
+        "label": "diagnose",
+        "detail": "Diagnoses the system to identify common errors."
+    },
+    {
+        "label": "dump-autoload",
+        "detail": "Dumps the autoloader."
+    },
+    {
+        "label": "dump-env",
+        "detail": "Compiles .env files to .env.local.php."
+    },
+    {
+        "label": "dumpautoload",
+        "detail": "Dumps the autoloader."
+    },
+    {
+        "label": "exec",
+        "detail": "Executes a vendored binary/script."
+    },
+    {
+        "label": "fix-recipes",
+        "detail": "Installs or reinstalls recipes for already installed packages."
+    },
+    {
+        "label": "global",
+        "detail": "Allows running commands in the global composer dir ($COMPOSER_HOME)."
+    },
+    {
+        "label": "help",
+        "detail": "Displays help for a command"
+    },
+    {
+        "label": "home",
+        "detail": "Opens the package's repository URL or homepage in your browser."
+    },
+    {
+        "label": "i",
+        "detail": "Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json."
+    },
+    {
+        "label": "info",
+        "detail": "Shows information about packages."
+    },
+    {
+        "label": "init",
+        "detail": "Creates a basic composer.json file in current directory."
+    },
+    {
+        "label": "install",
+        "detail": "Installs the project dependencies from the composer.lock file if present, or falls back on the composer.json."
+    },
+    {
+        "label": "licenses",
+        "detail": "Shows information about licenses of dependencies."
+    },
+    {
+        "label": "list",
+        "detail": "Lists commands"
+    },
+    {
+        "label": "outdated",
+        "detail": "Shows a list of installed packages that have updates available, including their latest version."
+    },
+    {
+        "label": "prohibits",
+        "detail": "Shows which packages prevent the given package from being installed."
+    },
+    {
+        "label": "recipes",
+        "detail": "Shows information about all available recipes."
+    },
+    {
+        "label": "remove",
+        "detail": "Removes a package from the require or require-dev."
+    },
+    {
+        "label": "require",
+        "detail": "Adds required packages to your composer.json and installs them."
+    },
+    {
+        "label": "run",
+        "detail": "Runs the scripts defined in composer.json."
+    },
+    {
+        "label": "run-script",
+        "detail": "Runs the scripts defined in composer.json."
+    },
+    {
+        "label": "search",
+        "detail": "Searches for packages."
+    },
+    {
+        "label": "self-update",
+        "detail": "Updates composer.phar to the latest version."
+    },
+    {
+        "label": "selfupdate",
+        "detail": "Updates composer.phar to the latest version."
+    },
+    {
+        "label": "show",
+        "detail": "Shows information about packages."
+    },
+    {
+        "label": "status",
+        "detail": "Shows a list of locally modified packages, for packages installed from source."
+    },
+    {
+        "label": "suggests",
+        "detail": "Shows package suggestions."
+    },
+    {
+        "label": "sync-recipes",
+        "detail": "Installs or reinstalls recipes for already installed packages."
+    },
+    {
+        "label": "u",
+        "detail": "Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file."
+    },
+    {
+        "label": "unpack",
+        "detail": "Unpacks a Symfony pack."
+    },
+    {
+        "label": "update",
+        "detail": "Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file."
+    },
+    {
+        "label": "upgrade",
+        "detail": "Upgrades your dependencies to the latest version according to composer.json, and updates the composer.lock file"
+    },
+    {
+        "label": "validate",
+        "detail": "Validates a composer.json and composer.lock."
+    },
+    {
+        "label": "why",
+        "detail": "Shows which packages cause the given package to be installed."
+    },
+    {
+        "label": "why-not",
+        "detail": "Shows which packages prevent the given package from being installed."
+    },
+    {
+        "label": "recipes:install",
+        "detail": "Installs or reinstalls recipes for already installed packages."
+    },
+    {
+        "label": "symfony:dump-env",
+        "detail": "Compiles .env files to .env.local.php."
+    },
+    {
+        "label": "symfony:generate-id",
+        "detail": "Generates a unique ID for this project."
+    },
+    {
+        "label": "symfony:recipes",
+        "detail": "Shows information about all available recipes."
+    },
+    {
+        "label": "symfony:recipes:install",
+        "detail": "Installs or reinstalls recipes for already installed packages."
+    },
+    {
+        "label": "symfony:sync-recipes",
+        "detail": "Installs or reinstalls recipes for already installed packages."
+    },
+    {
+        "label": "symfony:unpack",
+        "detail": "Unpacks a Symfony pack."
+    }
+]

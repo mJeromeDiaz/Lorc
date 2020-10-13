@@ -1,0 +1,330 @@
+[
+    {
+        "label": "about",
+        "detail": "Displays information about the current project"
+    },
+    {
+        "label": "help",
+        "detail": "Displays help for a command"
+    },
+    {
+        "label": "list",
+        "detail": "Lists commands"
+    },
+    {
+        "label": "api:json-schema:generate",
+        "detail": "Generates the JSON Schema for a resource operation."
+    },
+    {
+        "label": "api:openapi:export",
+        "detail": "[api:swagger:export] Dump the OpenAPI documentation"
+    },
+    {
+        "label": "assets:install",
+        "detail": "Installs bundles web assets under a public directory"
+    },
+    {
+        "label": "cache:clear",
+        "detail": "Clears the cache"
+    },
+    {
+        "label": "cache:pool:clear",
+        "detail": "Clears cache pools"
+    },
+    {
+        "label": "cache:pool:delete",
+        "detail": "Deletes an item from a cache pool"
+    },
+    {
+        "label": "cache:pool:list",
+        "detail": "List available cache pools"
+    },
+    {
+        "label": "cache:pool:prune",
+        "detail": "Prunes cache pools"
+    },
+    {
+        "label": "cache:warmup",
+        "detail": "Warms up an empty cache"
+    },
+    {
+        "label": "config:dump-reference",
+        "detail": "Dumps the default configuration for an extension"
+    },
+    {
+        "label": "debug:autowiring",
+        "detail": "Lists classes/interfaces you can use for autowiring"
+    },
+    {
+        "label": "debug:config",
+        "detail": "Dumps the current configuration for an extension"
+    },
+    {
+        "label": "debug:container",
+        "detail": "Displays current services for an application"
+    },
+    {
+        "label": "debug:event-dispatcher",
+        "detail": "Displays configured listeners for an application"
+    },
+    {
+        "label": "debug:form",
+        "detail": "Displays form type information"
+    },
+    {
+        "label": "debug:router",
+        "detail": "Displays current routes for an application"
+    },
+    {
+        "label": "debug:twig",
+        "detail": "Shows a list of twig functions, filters, globals and tests"
+    },
+    {
+        "label": "doctrine:cache:clear-collection-region",
+        "detail": "Clear a second-level cache collection region"
+    },
+    {
+        "label": "doctrine:cache:clear-entity-region",
+        "detail": "Clear a second-level cache entity region"
+    },
+    {
+        "label": "doctrine:cache:clear-metadata",
+        "detail": "Clears all metadata cache for an entity manager"
+    },
+    {
+        "label": "doctrine:cache:clear-query",
+        "detail": "Clears all query cache for an entity manager"
+    },
+    {
+        "label": "doctrine:cache:clear-query-region",
+        "detail": "Clear a second-level cache query region"
+    },
+    {
+        "label": "doctrine:cache:clear-result",
+        "detail": "Clears result cache for an entity manager"
+    },
+    {
+        "label": "doctrine:database:create",
+        "detail": "Creates the configured database"
+    },
+    {
+        "label": "doctrine:database:drop",
+        "detail": "Drops the configured database"
+    },
+    {
+        "label": "doctrine:database:import",
+        "detail": "Import SQL file(s) directly to Database."
+    },
+    {
+        "label": "doctrine:ensure-production-settings",
+        "detail": "Verify that Doctrine is properly configured for a production environment"
+    },
+    {
+        "label": "doctrine:mapping:convert",
+        "detail": "[orm:convert:mapping] Convert mapping information between supported formats"
+    },
+    {
+        "label": "doctrine:mapping:import",
+        "detail": "Imports mapping information from an existing database"
+    },
+    {
+        "label": "doctrine:mapping:info",
+        "detail": "info"
+    },
+    {
+        "label": "doctrine:migrations:diff",
+        "detail": "[diff] Generate a migration by comparing your current database to your mapping information."
+    },
+    {
+        "label": "doctrine:migrations:dump-schema",
+        "detail": "[dump-schema] Dump the schema for your database to a migration."
+    },
+    {
+        "label": "doctrine:migrations:execute",
+        "detail": "[execute] Execute a single migration version up or down manually."
+    },
+    {
+        "label": "doctrine:migrations:generate",
+        "detail": "[generate] Generate a blank migration class."
+    },
+    {
+        "label": "doctrine:migrations:latest",
+        "detail": "[latest] Outputs the latest version number"
+    },
+    {
+        "label": "doctrine:migrations:migrate",
+        "detail": "[migrate] Execute a migration to a specified version or the latest available version."
+    },
+    {
+        "label": "doctrine:migrations:rollup",
+        "detail": "[rollup] Rollup migrations by deleting all tracked versions and insert the one version that exists."
+    },
+    {
+        "label": "doctrine:migrations:status",
+        "detail": "[status] View the status of a set of migrations."
+    },
+    {
+        "label": "doctrine:migrations:up-to-date",
+        "detail": "[up-to-date] Tells you if your schema is up-to-date."
+    },
+    {
+        "label": "doctrine:migrations:version",
+        "detail": "[version] Manually add and delete migration versions from the version table."
+    },
+    {
+        "label": "doctrine:query:dql",
+        "detail": "Executes arbitrary DQL directly from the command line"
+    },
+    {
+        "label": "doctrine:query:sql",
+        "detail": "Executes arbitrary SQL directly from the command line."
+    },
+    {
+        "label": "doctrine:schema:create",
+        "detail": "Executes (or dumps) the SQL needed to generate the database schema"
+    },
+    {
+        "label": "doctrine:schema:drop",
+        "detail": "Executes (or dumps) the SQL needed to drop the current database schema"
+    },
+    {
+        "label": "doctrine:schema:update",
+        "detail": "Executes (or dumps) the SQL needed to update the database schema to match the current mapping metadata"
+    },
+    {
+        "label": "doctrine:schema:validate",
+        "detail": "Validate the mapping files"
+    },
+    {
+        "label": "gesdinet:jwt:clear",
+        "detail": "Clear invalid refresh tokens."
+    },
+    {
+        "label": "gesdinet:jwt:revoke",
+        "detail": "Revoke a refresh token"
+    },
+    {
+        "label": "lexik:jwt:check-config",
+        "detail": "Checks JWT configuration"
+    },
+    {
+        "label": "lexik:jwt:generate-token",
+        "detail": "Generates a JWT token"
+    },
+    {
+        "label": "lint:container",
+        "detail": "Ensures that arguments injected into services match type declarations"
+    },
+    {
+        "label": "lint:twig",
+        "detail": "Lints a template and outputs encountered errors"
+    },
+    {
+        "label": "lint:yaml",
+        "detail": "Lints a file and outputs encountered errors"
+    },
+    {
+        "label": "make:auth",
+        "detail": "Creates a Guard authenticator of different flavors"
+    },
+    {
+        "label": "make:command",
+        "detail": "Creates a new console command class"
+    },
+    {
+        "label": "make:controller",
+        "detail": "Creates a new controller class"
+    },
+    {
+        "label": "make:crud",
+        "detail": "Creates CRUD for Doctrine entity class"
+    },
+    {
+        "label": "make:entity",
+        "detail": "Creates or updates a Doctrine entity class, and optionally an API Platform resource"
+    },
+    {
+        "label": "make:fixtures",
+        "detail": "Creates a new class to load Doctrine fixtures"
+    },
+    {
+        "label": "make:form",
+        "detail": "Creates a new form class"
+    },
+    {
+        "label": "make:functional-test",
+        "detail": "Creates a new functional test class"
+    },
+    {
+        "label": "make:migration",
+        "detail": "Creates a new migration based on database changes"
+    },
+    {
+        "label": "make:registration-form",
+        "detail": "Creates a new registration form system"
+    },
+    {
+        "label": "make:serializer:encoder",
+        "detail": "Creates a new serializer encoder class"
+    },
+    {
+        "label": "make:serializer:normalizer",
+        "detail": "Creates a new serializer normalizer class"
+    },
+    {
+        "label": "make:subscriber",
+        "detail": "Creates a new event subscriber class"
+    },
+    {
+        "label": "make:twig-extension",
+        "detail": "Creates a new Twig extension class"
+    },
+    {
+        "label": "make:unit-test",
+        "detail": "Creates a new unit test class"
+    },
+    {
+        "label": "make:user",
+        "detail": "Creates a new security user class"
+    },
+    {
+        "label": "make:validator",
+        "detail": "Creates a new validator and constraint class"
+    },
+    {
+        "label": "make:voter",
+        "detail": "Creates a new security voter class"
+    },
+    {
+        "label": "router:match",
+        "detail": "Helps debug routes by simulating a path info match"
+    },
+    {
+        "label": "secrets:decrypt-to-local",
+        "detail": "Decrypts all secrets and stores them in the local vault."
+    },
+    {
+        "label": "secrets:encrypt-from-local",
+        "detail": "Encrypts all local secrets to the vault."
+    },
+    {
+        "label": "secrets:generate-keys",
+        "detail": "Generates new encryption keys."
+    },
+    {
+        "label": "secrets:list",
+        "detail": "Lists all secrets."
+    },
+    {
+        "label": "secrets:remove",
+        "detail": "Removes a secret from the vault."
+    },
+    {
+        "label": "secrets:set",
+        "detail": "Sets a secret in the vault."
+    },
+    {
+        "label": "security:encode-password",
+        "detail": "Encodes a password."
+    }
+]

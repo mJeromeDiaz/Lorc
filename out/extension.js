@@ -19,7 +19,7 @@ function activate(context) {
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
     // console.log('Congratulations, your extension "Loc" is now active!');
-    let disposable = vscode_1.commands.registerCommand('lorc', () => __awaiter(this, void 0, void 0, function* () {
+    let disposable = vscode_1.commands.registerCommand('extension.lorc', () => __awaiter(this, void 0, void 0, function* () {
         // const options = ['Symfony', 'Doctrine', 'Symfony Exe'].map(label => ({ label }));
         const options = [
             { label: 'Symfony.exe', detail: 'Executable Symhony' },

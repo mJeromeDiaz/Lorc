@@ -3,8 +3,8 @@
 	"displayName": "Lorc - Symfony Terminal Command",
 	"description": "List of recurrent Symfony (and env) command",
 	"version": "1.0.1",
-	"icon": "./images/orc.png",
-	"publisher": "mJeromeDiaz",
+	"icon": "images/orc.png",
+	"publisher": "jeromeDiaz",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mJeromeDiaz/Lorc.git"
@@ -32,13 +32,13 @@
 		"Orc"
 	  ],
 	"activationEvents": [
-		"onCommand:lorc"
+		"onCommand:extension.lorc"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "lorc",
+				"command": "extension.lorc",
 				"title": "List of recurrent Symfony (and env) command"
 			}
 		]

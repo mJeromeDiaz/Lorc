@@ -11,7 +11,7 @@ export function activate (context: ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	// console.log('Congratulations, your extension "Loc" is now active!');
 
-	let disposable = commands.registerCommand('lorc', async () => {
+	let disposable = commands.registerCommand('extension.lorc', async () => {
 		// const options = ['Symfony', 'Doctrine', 'Symfony Exe'].map(label => ({ label }));
 		const options = [
 			{ label: 'Symfony.exe', detail: 'Executable Symhony' },

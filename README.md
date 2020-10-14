@@ -17,3 +17,5 @@ Install this extension from the [VSCode Marketplace](https://marketplace.visuals
 
 
 **Enjoy!**
+
+Icons made by <a href="https://www.flaticon.com/free-icon/orc_1615645" title="Darius Dan">Darius Dan</a>

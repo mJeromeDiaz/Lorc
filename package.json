@@ -1,14 +1,36 @@
 {
-	"name": "loc",
-	"displayName": "Loc",
-	"description": "loc",
-	"version": "0.0.1",
+	"name": "lorc",
+	"displayName": "Lorc - Symfony Terminal Command",
+	"description": "List of recurrent Symfony (and env) command",
+	"version": "1.0.1",
+	"icon": "./images/orc.png",
+	"publisher": "mJeromeDiaz",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mJeromeDiaz/Lorc.git"
+	  },
 	"engines": {
-		"vscode": "^1.49.0"
+		"vscode": "^1.50.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"Terminal",
+		"CMD",
+		"PowerShell",
+		"Command",
+		"Commands",
+		"Shortcuts",
+		"CLI",
+		"Command Line",
+		"Run",
+		"Symfony",
+		"Composer",
+		"Bundle",
+		"List",
+		"Orc"
+	  ],
 	"activationEvents": [
 		"onCommand:lorc"
 	],

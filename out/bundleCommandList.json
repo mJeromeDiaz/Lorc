@@ -1,82 +1,82 @@
 [
     {
-        "label": "apiplatform",
-        "detail": "api"
+        "label": "api",
+        "detail": "apiplatform"
     },
     {
-        "label": "maker bundle",
-        "detail": "symfony/maker-bundle --dev"
+        "label": "symfony/maker-bundle --dev",
+        "detail": "maker bundle"
     },
     {
-        "label": "profiler",
-        "detail": "symfony/profiler-pack --dev"
+        "label": "symfony/profiler-pack --dev",
+        "detail": "profiler"
     },
     {
         "label": "logger",
         "detail": "logger"
     },
     {
-        "label": "apache-pack",
-        "detail": "symfony/apache-pack"
+        "label": "symfony/apache-pack",
+        "detail": "apache-pack"
     },
     {
-        "label": "monolog",
-        "detail": "monolog/monolog"
+        "label": "monolog/monolog",
+        "detail": "monolog"
     },
     {
-        "label": "guzzlehttp",
-        "detail": "guzzlehttp/guzzle"
+        "label": "guzzlehttp/guzzle",
+        "detail": "guzzlehttp"
     },
     {
-        "label": "HWIOAuthBundle",
-        "detail": "hwi/oauth-bundle php-http/guzzle6-adapter php-http/httplug-bundle"
+        "label": "hwi/oauth-bundle php-http/guzzle6-adapter php-http/httplug-bundle",
+        "detail": "HWIOAuthBundle"
     },
     {
-        "label": "webpack-encore",
-        "detail": "symfony/webpack-encore-bundle"
+        "label": "symfony/webpack-encore-bundle",
+        "detail": "webpack-encore"
     },
     {
-        "label": "NelmioCorsBundle",
-        "detail": "cors"
+        "label": "cors",
+        "detail": "NelmioCorsBundle"
     },
     {
-        "label": "LexikJWTAuthenticationBundle",
-        "detail": "lexik/jwt-authentication-bundle"
+        "label": "lexik/jwt-authentication-bundle",
+        "detail": "LexikJWTAuthenticationBundle"
     },
     {
-        "label": "DoctrineBundle",
-        "detail": "doctrine/doctrine-bundle"
+        "label": "doctrine/doctrine-bundle",
+        "detail": "DoctrineBundle"
     },
     {
-        "label": "DoctrineFixturesBundle",
-        "detail": "--dev doctrine/doctrine-fixtures-bundle"
+        "label": "--dev doctrine/doctrine-fixtures-bundle",
+        "detail": "DoctrineFixturesBundle"
     },
     {
-        "label": "StofDoctrineExtensionsBundle",
-        "detail": "stof/doctrine-extensions-bundle"
+        "label": "stof/doctrine-extensions-bundle",
+        "detail": "StofDoctrineExtensionsBundle"
     },
     {
-        "label": "SensioFrameworkExtraBundle",
-        "detail": "sensio/framework-extra-bundle"
+        "label": "sensio/framework-extra-bundle",
+        "detail": "SensioFrameworkExtraBundle"
     },
     {
-        "label": "FOSRestBundle",
-        "detail": "friendsofsymfony/rest-bundle"
+        "label": "friendsofsymfony/rest-bundle",
+        "detail": "FOSRestBundle"
     },
     {
-        "label": "FOSJsRoutingBundle",
-        "detail": "friendsofsymfony/jsrouting-bundle"
+        "label": "friendsofsymfony/jsrouting-bundle",
+        "detail": "FOSJsRoutingBundle"
     },
     {
-        "label": "FOSCKEditorBundle",
-        "detail": "friendsofsymfony/ckeditor-bundle"
+        "label": "friendsofsymfony/ckeditor-bundle",
+        "detail": "FOSCKEditorBundle"
     },
     {
-        "label": "KnpMenuBundle",
-        "detail": "knplabs/knp-menu-bundle"
+        "label": "knplabs/knp-menu-bundle",
+        "detail": "KnpMenuBundle"
     },
     {
-        "label": "EasyAdmin",
-        "detail": "easycorp/easyadmin-bundle"
+        "label": "easycorp/easyadmin-bundle",
+        "detail": "EasyAdmin"
     }
 ]

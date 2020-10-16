@@ -10,5 +10,73 @@
     {
         "label": "profiler",
         "detail": "symfony/profiler-pack --dev"
+    },
+    {
+        "label": "logger",
+        "detail": "logger"
+    },
+    {
+        "label": "apache-pack",
+        "detail": "symfony/apache-pack"
+    },
+    {
+        "label": "monolog",
+        "detail": "monolog/monolog"
+    },
+    {
+        "label": "guzzlehttp",
+        "detail": "guzzlehttp/guzzle"
+    },
+    {
+        "label": "HWIOAuthBundle",
+        "detail": "hwi/oauth-bundle php-http/guzzle6-adapter php-http/httplug-bundle"
+    },
+    {
+        "label": "webpack-encore",
+        "detail": "symfony/webpack-encore-bundle"
+    },
+    {
+        "label": "NelmioCorsBundle",
+        "detail": "cors"
+    },
+    {
+        "label": "LexikJWTAuthenticationBundle",
+        "detail": "lexik/jwt-authentication-bundle"
+    },
+    {
+        "label": "DoctrineBundle",
+        "detail": "doctrine/doctrine-bundle"
+    },
+    {
+        "label": "DoctrineFixturesBundle",
+        "detail": "--dev doctrine/doctrine-fixtures-bundle"
+    },
+    {
+        "label": "StofDoctrineExtensionsBundle",
+        "detail": "stof/doctrine-extensions-bundle"
+    },
+    {
+        "label": "SensioFrameworkExtraBundle",
+        "detail": "sensio/framework-extra-bundle"
+    },
+    {
+        "label": "FOSRestBundle",
+        "detail": "friendsofsymfony/rest-bundle"
+    },
+    {
+        "label": "FOSJsRoutingBundle",
+        "detail": "friendsofsymfony/jsrouting-bundle"
+    },
+    {
+        "label": "FOSCKEditorBundle",
+        "detail": "friendsofsymfony/ckeditor-bundle"
+    },
+    {
+        "label": "KnpMenuBundle",
+        "detail": "knplabs/knp-menu-bundle"
+    },
+    {
+        "label": "EasyAdmin",
+        "detail": "easycorp/easyadmin-bundle"
     }
 ]

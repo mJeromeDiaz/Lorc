@@ -17,6 +17,16 @@ Run more than 200 terminal commands for Symfony/composer from command palette wi
 
 Install this extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jeromeDiaz.lorc)
 
+## Todo
+
+- ✔️ ~~if no terminal is active, create one~~ v1.0.2
+- if terminal is busy propose either to create a new terminal, or to use another active terminal
+- be able to integrate your personal list
+
+## Submit a command line ?
+
+You can submit new bundle on the [repository](https://github.com/mJeromeDiaz/Lorc/issues)
+
 
 **Enjoy!**
 

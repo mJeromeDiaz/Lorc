@@ -121,7 +121,7 @@ exports.deactivate = deactivate;
 // }
 function ensureTerminalExists() {
     if (vscode_1.window.terminals.length === 0) {
-        vscode_1.window.showInformationMessage('No active terminals - new terminal create for you ;)');
+        vscode_1.window.showInformationMessage('New terminal create');
         const terminal = vscode_1.window.createTerminal('Lorc');
         terminal.show();
     }

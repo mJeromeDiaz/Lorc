@@ -120,7 +120,7 @@ export function deactivate () { }
 
 function ensureTerminalExists (): boolean {
 	if ((<any>window).terminals.length === 0) {
-		window.showInformationMessage('No active terminals - new terminal create for you ;)');
+		window.showInformationMessage('New terminal create');
 		const terminal = window.createTerminal('Lorc');
 		terminal.show();
 	}

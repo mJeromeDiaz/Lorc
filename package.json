@@ -2,7 +2,7 @@
 	"name": "lorc",
 	"displayName": "Lorc - Symfony Terminal Command",
 	"description": "List of recurrent Symfony (and env) command",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "images/orc.png",
 	"publisher": "jeromeDiaz",
 	"repository": {

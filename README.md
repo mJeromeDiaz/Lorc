@@ -20,6 +20,7 @@ Install this extension from the [VSCode Marketplace](https://marketplace.visuals
 ## Todo
 
 - ✔️ ~~if no terminal is active, create one~~ v1.0.2
+- ✔️ ~~if several terminals are open, ask which terminal to use~~ v1.0.3
 - if terminal is busy propose either to create a new terminal, or to use another active terminal
 - be able to integrate your personal list
 

@@ -26,14 +26,14 @@ export function activate (context: ExtensionContext) {
 		quickPick.title = 'List of recurrent command';
 
 		// on selected item
-		quickPick.onDidChangeSelection((options) => {
+		quickPick.onDidChangeSelection((secondPickOptions) => {
 
 			// create second pick
 			const quickPickCommand = window.createQuickPick();
 			let operateur = '';
 
 			// select items to constitute second picks and an operateur before command
-			switch (options[0].label) {
+			switch (secondPickOptions[0].label) {
 				case 'Symfony.exe': {
 					quickPickCommand.items = symfonyExeCommandList;
 					operateur = "symfony";
@@ -54,38 +54,30 @@ export function activate (context: ExtensionContext) {
 					operateur = "composer req";
 					break;
 				}
-				default: {
-					quickPickCommand.items = symfonyCommandList;
-					operateur = "php bin/console";
-					break;
-				}
 			}
 
-			quickPickCommand.title = '' + options[0].label;
+			quickPickCommand.title = '' + secondPickOptions[0].label;
 			quickPickCommand.show();
 
-			// window.showInformationMessage(options[0].label);
 			// on select items in second pick
 			quickPickCommand.onDidChangeSelection((item) => {
-				// if a terminal exist
 				if (ensureTerminalExists()) {
-					let cmd = item[0].label;
-					let t = window.terminals[0];
-					if (t) {
-						// send command in terminal
-						t.sendText(operateur + ' ' + cmd);
+					let cmd = operateur + ' ' + item[0].label;
+					let terminals = window.terminals;
+
+					if(terminals.length > 1) {
+						selectTerminal().then(terminal => {
+							if (terminal) {
+								terminal.sendText(cmd);
+							}
+						});
 					} else {
-						window.showErrorMessage('No active terminal');
+						if (terminals[0]) {
+							terminals[0].sendText(cmd);
+						} else {
+							window.showErrorMessage('No active terminal');
+						}
 					}
-					/**
-					 * Set terminal by os name
-					 */
-					// selectTerminal().then(terminal => {
-					// 	if (terminal) {
-					// 		let cmd = item[0].label;
-					// 		t.sendText('' + cmd);
-					// 	}
-					// });
 				}
 
 				quickPickCommand.hide();
@@ -102,21 +94,21 @@ export function deactivate () { }
 /**
  * Set terminal by is name
  */
-// function selectTerminal (): Thenable<Terminal | undefined> {
-// 	interface TerminalQuickPickItem extends QuickPickItem {
-// 		terminal: Terminal;
-// 	}
-// 	const terminals = <Terminal[]>(<any>window).terminals;
-// 	const items: TerminalQuickPickItem[] = terminals.map(t => {
-// 		return {
-// 			label: `Nom du terminal a utiliser: ${t.name}`,
-// 			terminal: t
-// 		};
-// 	});
-// 	return window.showQuickPick(items).then(item => {
-// 		return item ? item.terminal : undefined;
-// 	});
-// }
+function selectTerminal (): Thenable<Terminal | undefined> {
+	interface TerminalQuickPickItem extends QuickPickItem {
+		terminal: Terminal;
+	}
+	const terminals = <Terminal[]>(<any>window).terminals;
+	const items: TerminalQuickPickItem[] = terminals.map(t => {
+		return {
+			label: `Terminal to use: ${t.name}`,
+			terminal: t
+		};
+	});
+	return window.showQuickPick(items).then(item => {
+		return item ? item.terminal : undefined;
+	});
+}
 
 function ensureTerminalExists (): boolean {
 	if ((<any>window).terminals.length === 0) {
